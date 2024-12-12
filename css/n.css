@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+.pridi-regular {
+    font-family: "Pridi", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+body{
+    height: auto;
+    background-image: url('/img/pxsprite-space.gif');
+    background-size: cover; 
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.4); /* สีดำโปร่งแสง */
+      background-blend-mode: darken; /* ผสมสี */
+}
+.line{
+    position: relative;
+    transform: rotate(90deg);
+    background-color: white;
+    width: 500%;
+    right: 3806px;
+
+}
+.buttom{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 100px;
+}
+.buttom:hover {
+    box-shadow: 1px 1px 5px 5px white,
+                -1px -1px 5px 5px;
+    width: 40px;
+    height: 40px;
+
+}
+
+#buttom1{
+    /* position: relative; */
+    left: 936px;
+    top: 160px;
+}
+#buttom2{
+    /* position: relative; */
+    left: 936px;
+    bottom: 370px;
+}
+#buttom3{
+    /* position: relative; */
+    left: 936px;
+    top: 1010px;
+}
+#buttom4{
+    /* position: relative; */
+    left: 936px;
+    bottom: -545px;
+}
+#buttom5{
+    /* position: relative; */
+    left: 936px;
+    bottom: -1025px;
+}
+#buttom6{
+    /* position: relative; */
+    left: 936px;
+    bottom: -1495px;
+}
+#buttom7{
+    /* position: relative; */
+    left: 936px;
+    bottom: -1967px;
+}
+#buttom8{
+    /* position: relative; */
+    left: 936px;
+    bottom: -2425px;
+}
+
+.para{
+    width: 600px;
+    height: 200px;
+    color: white;
+    font-size: 25px;
+    line-height: 40px;
+    overflow: auto;
+    position:absolute;
+    border-radius: 10px;
+}
+p::-webkit-scrollbar {
+    display: none;
+  }
+#p1{
+    /* position: relative; */
+    left: 150px;
+    top: 90px;
+}
+#p2{
+    /* position: relative; */
+    left: 1150px;
+    bottom: 270px;
+}
+#p3{
+    /* position: relative; */
+    left: 150px;
+    bottom: -170px;
+} 
+#p4{
+    /* position: relative; */
+    left: 1150px;
+    bottom: -640px;
+}
+#p5{
+    /* position: relative; */
+    left: 150px;
+    bottom: -1100px;
+}
+#p6{
+    /* position: relative; */
+    left: 1150px;
+    bottom: -1580px;
+}
+#p7{
+    /* position: relative; */
+    left: 150px;
+    bottom: -2050px;
+}
+#p8{
+    /* position: relative; */
+    left: 1200px;
+    bottom: -2520px;
+}
+#end{
+    left: 90px;
+    bottom: -3550px;
+    font-size: xx-large;
+    width: 800px;
+    height: 400px;
+}
+#end2{
+    left: 850px;
+    bottom: -4050px;
+    font-size: 100px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+}
+#triangle1{
+    position: absolute;
+    left: 1050px;
+    bottom: 720px;
+    border-top: 50px solid transparent;
+    border-right: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+}
+#triangle2{
+    position: absolute;
+    left: 800px;
+    bottom: 335px;
+    border-top: 50px solid transparent;
+    border-left: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+}
+#triangle3{
+    position: absolute;
+    left: 1050px;
+    bottom: -130px;
+    border-top: 50px solid transparent;
+    border-right: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+}
+#triangle4{
+    position: absolute;
+    left: 800px;
+    bottom: -580px;
+    border-top: 50px solid transparent;
+    border-left: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+}
+#triangle5{
+    position: absolute;
+    left: 1050px;
+    bottom: -1060px;
+    border-top: 50px solid transparent;
+    border-right: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+}
+#triangle6{
+    position: absolute;
+    left: 800px;
+    bottom: -1530px;
+    border-top: 50px solid transparent;
+    border-left: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+}
+#triangle7{
+    position: absolute;
+    left: 1050px;
+    bottom: -2000px;
+    border-top: 50px solid transparent;
+    border-right: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+}
+#triangle8{
+    position: absolute;
+    left: 800px;
+    bottom: -2460px;
+    border-top: 50px solid transparent;
+    border-left: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+}
+
+img{
+    position: absolute;
+    border-radius: 10px;
+}
+#img1{
+    /* position: relative; */
+    left: 1200px;
+    bottom: 635px;
+    width: 28%;
+}
+#img2{
+    /* position: relative; */
+    left: 250px;
+    width: 24%;
+    bottom: 200px;
+}
+#img3{
+    /* position: relative; */
+    left: 1200px;
+    width: 25%;
+    bottom: -200px;
+}
+#img4{
+    /* position: relative; */
+    left: 250px ;
+    width: 25%;
+    bottom: -660px;
+}
+#img5{
+    /* position: relative; */
+    left: 1200px;
+    width: 25%;
+    bottom: -1150px;
+}
+#img6{
+    /* position: relative; */
+    left: 250px;
+    width: 25%;
+    bottom: -1620px;
+}
+#img7{
+    /* position: relative; */
+    left: 1200px;
+    width: 27%;
+    bottom: -2080px;
+}
+#img8{
+    /* position: relative; */
+    left: 250px;
+    width: 25%;
+    bottom: -2580px;
+}
+#imgend{
+    left: 1200px;
+    width: 30%;
+    bottom: -3850px;
+    border-radius: 40px;
+}
+
+
+
+
