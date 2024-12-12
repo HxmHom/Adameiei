@@ -10,7 +10,7 @@
   }
 body{
     height: auto;
-    background-image: url('img/pxsprite-space.gif');
+    background-image: url('/img/pxsprite-space.gif');
     background-size: cover; 
     background-position: center;
     background-color: rgba(0, 0, 0, 0.4); /* สีดำโปร่งแสง */
