@@ -297,7 +297,7 @@ img{
   }
 body{
     height: auto;
-    background-image: url("/Adameiei/img/pxsprite-space.gif");
+    background-image: url("/img/pxsprite-space.gif");
     background-size: 450%; 
     background-repeat: repeat-x;
     background-position: center;
@@ -640,7 +640,7 @@ body.blackout {
       }
     body{
         height: auto;
-        background-image: url("/Adameiei/img/pxsprite-space.gif");
+        background-image: url("/img/pxsprite-space.gif");
         background-size: cover; 
         background-repeat: repeat-x;
         background-position: center;
