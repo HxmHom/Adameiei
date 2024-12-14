@@ -297,7 +297,7 @@ img{
   }
 body{
     height: auto;
-    background-image: url("img/pxsprite-space.gif");
+    background-image: url("/img/pxsprite-space.gif");
     background-size: 450%; 
     background-repeat: repeat-x;
     background-position: center;
