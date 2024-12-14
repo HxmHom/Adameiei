@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai:wght@100..900&family=Passion+One:wght@400;700;900&family=Pridi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <style>
-    *{
+        *{
         font-family: "Pridi", serif;
         font-weight: 400;
         font-style: normal;
@@ -17,24 +17,83 @@
     body{
         background-color: black;
     }
+     .container{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: center;
+        width: 100%;
+    }
+    .container-img{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        flex-grow: 1;
+        width: 100%;
+    }
+ 
     #p1{
         color: white;
-        font-size: 80px;
-        position: absolute;
-        left: 700px;
+        font-size: 120px;
+        position: relative;
+        /* left: 35vw; */
     }
     img{
-        width: 50%;
-        position: absolute;
-        left: 470px;
-        top: 100px;
+        min-width: 50%;
+        width: 100%;
+        position: relative;
+        top: -20vh;
+        flex-grow: 1;
+    }
+    @media (min-width:2000px){
+        *{
+        font-family: "Pridi", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    body{
+        background-color: black;
+    }
+     .container{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: center;
+        width: 100%;
+    }
+    .container-img{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+        flex-grow: 1;
+        width: 100%;
+    }
+ 
+    #p1{
+        color: white;
+        font-size: 120px;
+        position: relative;
+        /* left: 35vw; */
+    }
+    img{
+        min-width: 50%;
+        width: 100%;
+        position: relative;
+        top: -20vh;
+        flex-grow: 1;
+    }
     }
 </style>
 <body>
-    <p id="p1">ถ้าอาดัมเป็นอมตะ</p>
-    <a href="N.html">
-        <img src="img/Untitled41_20241212211632.png" alt=""> <!--เปลี่ยนชื่อไฟล์-->
-    </a>
-    <!-- ได้รับคอมเมนต์นี้ไหม -->
+    <div class="container">
+        <div class="container-p"> 
+            <p id="p1">ถ้าอาดัมเป็นอมตะ</p>
+        </div>
+        <div class="container-img">
+            <a href="N.html">
+                <img src="img/Untitled41_20241212211632.png" alt=""> <!--เปลี่ยนชื่อไฟล์-->
+            </a>
+        </div>
+    </div>
 </body>
 </html>

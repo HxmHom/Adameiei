@@ -1,3 +1,4 @@
+/* 
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -10,18 +11,19 @@
   }
 body{
     height: auto;
-    background-image: url('/img/pxsprite-space.gif');
+    background-image: url('./img/pxsprite-space.gif');
     background-size: cover; 
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.4); /* สีดำโปร่งแสง */
-      background-blend-mode: darken; /* ผสมสี */
+    background-color: rgba(0, 0, 0, 0.4); 
+      background-blend-mode: darken; 
 }
 .line{
-    position: relative;
+    position: absolute;
     transform: rotate(90deg);
     background-color: white;
     width: 500%;
-    right: 3806px;
+    right: -3806px;
+    
 
 }
 .buttom{
@@ -30,7 +32,6 @@ body{
     height: 30px;
     border-radius: 5px;
     cursor: pointer;
-    position: absolute;
     border-radius: 100px;
 }
 .buttom:hover {
@@ -42,42 +43,42 @@ body{
 }
 
 #buttom1{
-    /* position: relative; */
+    position: relative;
     left: 936px;
     top: 160px;
-}
+} 
 #buttom2{
-    /* position: relative; */
+    position: relative;
     left: 936px;
     bottom: 370px;
 }
 #buttom3{
-    /* position: relative; */
+     position: relative; 
     left: 936px;
     top: 1010px;
 }
 #buttom4{
-    /* position: relative; */
+    position: relative; 
     left: 936px;
     bottom: -545px;
 }
 #buttom5{
-    /* position: relative; */
+     position: relative; 
     left: 936px;
     bottom: -1025px;
 }
 #buttom6{
-    /* position: relative; */
+     position: relative;
     left: 936px;
     bottom: -1495px;
 }
 #buttom7{
-    /* position: relative; */
+     position: relative; 
     left: 936px;
     bottom: -1967px;
 }
 #buttom8{
-    /* position: relative; */
+     position: relative; 
     left: 936px;
     bottom: -2425px;
 }
@@ -95,43 +96,47 @@ body{
 p::-webkit-scrollbar {
     display: none;
   }
-#p1{
-    /* position: relative; */
+ #p1{
+    position: relative;
     left: 150px;
     top: 90px;
-}
+    margin: 100px auto;
+    text-align: center;
+    margin-left: 150px;
+
+} 
 #p2{
-    /* position: relative; */
+     position: relative; 
     left: 1150px;
     bottom: 270px;
 }
 #p3{
-    /* position: relative; */
+     position: relative; 
     left: 150px;
     bottom: -170px;
 } 
 #p4{
-    /* position: relative; */
+     position: relative; 
     left: 1150px;
     bottom: -640px;
 }
 #p5{
-    /* position: relative; */
+     position: relative; 
     left: 150px;
     bottom: -1100px;
 }
 #p6{
-    /* position: relative; */
+     position: relative; 
     left: 1150px;
     bottom: -1580px;
 }
 #p7{
-    /* position: relative; */
+     position: relative; 
     left: 150px;
     bottom: -2050px;
 }
 #p8{
-    /* position: relative; */
+ position: relative; 
     left: 1200px;
     bottom: -2520px;
 }
@@ -151,14 +156,14 @@ p::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
-#triangle1{
+ #triangle1{
     position: absolute;
     left: 1050px;
     bottom: 720px;
     border-top: 50px solid transparent;
     border-right: 50px solid #ffffff;
     border-bottom: 50px solid transparent;
-}
+} 
 #triangle2{
     position: absolute;
     left: 800px;
@@ -220,50 +225,50 @@ img{
     position: absolute;
     border-radius: 10px;
 }
-#img1{
-    /* position: relative; */
+ #img1{
+     position: relative;
     left: 1200px;
-    bottom: 635px;
+    bottom: 635px; 
     width: 28%;
 }
 #img2{
-    /* position: relative; */
+     position: relative; 
     left: 250px;
     width: 24%;
     bottom: 200px;
 }
 #img3{
-    /* position: relative; */
+    position: relative; 
     left: 1200px;
     width: 25%;
     bottom: -200px;
 }
 #img4{
-    /* position: relative; */
+ position: relative;
     left: 250px ;
     width: 25%;
     bottom: -660px;
 }
 #img5{
-    /* position: relative; */
+     position: relative; 
     left: 1200px;
     width: 25%;
     bottom: -1150px;
 }
 #img6{
-    /* position: relative; */
+     position: relative; 
     left: 250px;
     width: 25%;
     bottom: -1620px;
 }
 #img7{
-    /* position: relative; */
+     position: relative; 
     left: 1200px;
     width: 27%;
     bottom: -2080px;
 }
 #img8{
-    /* position: relative; */
+     position: relative; 
     left: 250px;
     width: 25%;
     bottom: -2580px;
@@ -275,6 +280,338 @@ img{
     border-radius: 40px;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+
+*{
+    margin-bottom: 20px;
+    padding: 0px;
+}
+.pridi-regular {
+    font-family: "Pridi", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+body{
+    height: auto;
+    background-image: url("img/pxsprite-space.gif");
+    background-size: 450%; 
+    background-repeat: repeat-x;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2); 
+    background-blend-mode: darken;
+    overflow-x: hidden;
+}
+
+
+.para{
+    width: 600px;
+    height: 200px;
+    color: white;
+    font-size: 25px;
+    line-height: 40px;
+    overflow: auto;
+    border-radius: 10px;
+    order: 1;
+}
+p::-webkit-scrollbar {
+    display: none;
+  }
+.buttom{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.clicked{
+    box-shadow: 1px 1px 5px 5px white,
+                -1px -1px 5px 5px;
+    width: 40px;
+    height: 40px;
+}
+img{
+    border-radius: 10px;
+}
+/* .fix{
+    width: 98vw;
+    height: 30vh;
+} */
+
+/* กลุ่มที่ 1 */
+#content1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px 150px;
+    margin-left: 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: justify;
+    
+}
+#p1{
+    order: 1;
+    
+}
+#img1{
+    width: 28%;
+    order: 4;
+    max-width: 100%; /* ทำให้รูปภาพไม่เกินกรอบ */
+    height: auto;
+}
+#triangle1{
+    border-top: 50px solid transparent;
+    border-right: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+    order: 3;
+}
+#buttom1{
+    order: 2;
+}
 
 
 
+/* กลุ่ม2 */
+#content2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px 150px;
+    margin-left: 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: justify;
+}
+#img2{
+    width: 28%;
+    order: 4;
+}
+#triangle2{
+    border-top: 50px solid transparent;
+    border-right: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+    order: 3;
+}
+#buttom2{
+    order: 2;
+}
+
+
+
+/* กลุ่ม3 */
+#content3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px 150px;
+    margin-left: 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: justify;
+}
+#img3{
+    width: 28%;
+    order: 4;
+}
+#triangle3{
+    border-top: 50px solid transparent;
+    border-right: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+    order: 3;
+}
+#buttom3{
+    order: 2;
+}
+
+
+/* กลุ่ม4 */
+#content4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px 150px;
+    margin-left: 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: justify;
+}
+#img4{
+    width: 28%;
+    order: 4;
+}
+#triangle4{
+    border-top: 50px solid transparent;
+    border-right: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+    order: 3;
+}
+#buttom4{
+    order: 2;
+}
+
+
+/* กลุ่ม5 */
+#content5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px 150px;
+    margin-left: 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: justify;
+}
+#img5{
+    width: 28%;
+    order: 4;
+}
+#triangle5{
+    border-top: 50px solid transparent;
+    border-right: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+    order: 3;
+}
+#buttom5{
+    order: 2;
+}
+
+
+/* กลุ่ม6 */
+#content6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px 150px;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: justify;
+}
+#img6{
+    width: 28%;
+    order: 4;
+}
+#triangle6{
+    border-top: 50px solid transparent;
+    border-right: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+    order: 3;
+}
+#buttom6{
+    order: 2;
+}
+
+
+/* กลุ่ม7 */
+#content7{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px 150px;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: justify;
+}
+#img7{
+    width: 28%;
+    order: 4;
+}
+#triangle7{
+    border-top: 50px solid transparent;
+    border-right: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+    order: 3;
+}
+#buttom7{
+    order: 2;
+}
+
+
+/* กลุ่ม8 */
+#content8{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px 150px;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: justify;
+}
+#img8{
+    width: 28%;
+    order: 4;
+}
+#triangle8{
+    border-top: 50px solid transparent;
+    border-right: 50px solid #ffffff;
+    border-bottom: 50px solid transparent;
+    order: 3;
+}
+#buttom8{
+    order: 2;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(50px); /* เลื่อนลงเล็กน้อย */
+    transition: opacity 3s ease-out, transform 3s ease-out;
+  }
+  
+
+.visible {
+    background-size: auto;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+#endall{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin-top: 150px;
+
+}
+#imgend{
+    width: 20%;
+    border-radius: 30px;
+}
+#end2{
+    font-size: 55px;
+}
+body.blackout {
+    background-color: black;
+    color: white; /* เปลี่ยนสีข้อความเป็นขาวเพื่อให้มองเห็น */
+    transition: background-color 1s ease-out, color 1s ease-out;
+  }
+
+.highlighted {
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(1.05); /* ขยายขนาดเล็กน้อย */
+    box-shadow: 1px 1px 5px 0.5px rgba(255, 255, 255, 0.589),
+                -1px -1px 5px 0.5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* เพิ่มความนุ่มนวลในการเคลื่อนไหว */
+}
+
+
+@media (min-width:2000px){
+    .para{
+        font-size: 40px;
+        width: 800px;
+        height: 300px;
+    }
+    .buttom{
+        width: 50px;
+        height: 50px;
+    }
+    .buttom:active {
+        box-shadow: 1px 1px 5px 5px white,
+                    -1px -1px 5px 5px;
+        width: 70px;
+        height: 70px;
+    }
+}
